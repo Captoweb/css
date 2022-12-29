@@ -1,0 +1,413 @@
+body {
+  margin: 50px 10px;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.box, .box2, .box3, .box4, .box5, .box6 {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+.box, .box2, .box3 {
+  display: flex;
+}
+
+.box6 {
+  height: 200px;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+.crutit {
+  animation-duration: 6s;
+  animation-name: myanimation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes myanimation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.crutit2 {
+  animation-name: myanimation2;
+  animation-duration: 30s;
+  animation-timing-function: ease;
+  height: 160px;
+  padding: 15px;
+}
+
+@keyframes myanimation2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform :rotate(360deg);
+  }
+}
+
+
+.crutit3 {
+  animation-name: myanimation3;
+  animation-duration: 3s;
+  animation-iteration-count: 60s;
+  /* animation: myanimation3 3s infinite; */
+  height: 200px;
+}
+.morda-img {
+  position: relative;
+  left: -40px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.morda-img:hover {
+  width: 320px;
+  height: 220px;
+  left: -50px;
+}
+
+
+.ower {
+  overflow: hidden;
+  display: flex;
+  width: 200px;
+  height: 180px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.ower:hover {
+  opacity: 0.9;
+}
+
+
+@keyframes myanimation3 {
+ 0% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+  }
+}
+
+.crutit4 {
+  animation-name: myanimation4;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  height: 180px;
+
+}
+
+.str4 {
+  height: 3px;
+  width: 60px;
+  background-color: black;
+  position: relative;
+  top: -97px;
+  left: 30px;
+  animation-name: strelka;
+  animation-duration: 60s;
+  animation-iteration-count: 60s;
+  transform-origin: right top;
+}
+
+.box4{
+  position: relative;
+}
+
+@keyframes strelka {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+ 
+}
+
+
+.crutit5 {
+  animation-name: myanimation5;
+  animation-duration: 5s;
+  animation-timing-function: 35s;
+  
+}
+
+@keyframes myanimation5 {
+  from {
+    transform: translate(0px) rotate(0deg);
+  }
+  to {
+    transform: translate(920px) rotate(360deg);
+  }
+}
+
+
+
+.crutit6 {
+  /* animation-name: myanimation6;
+  animation-duration: 3s;
+  animation-iteration-count: 30s; */
+  /* height: 200px; */
+}
+
+.morda-img2 {
+  position: relative;
+  left: -40px;
+  border-radius: 20px;
+  margin-left: 40px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.morda-img2:hover {
+  width: 320px;
+  height: 220px;
+  left: -50px;
+}
+
+.plus6 {
+  cursor: pointer;
+  position: relative;
+  top: -184px;
+  right: -17px;
+}
+
+.plus6:hover {
+  width: 255px;
+  height: 220px;
+  left: -5px;
+}
+
+@keyframes myanimation6 {
+  0% {
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+   }
+   50% {
+     transform: scale(1.05);
+     -webkit-transform: scale(1.05);
+     -ms-transform: scale(1.05);
+   }
+   100% {
+     transform: scale(1.2);
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+   }
+ }
+
+
+ .flex {
+  display: flex;
+ }
+
+ .box7 {
+   margin-left: 50px;
+   margin: 10px;
+   padding: 20px;
+   padding-left: 30px;
+   border: 1px solid #ccc;
+   border-radius: 14px;
+   width: 30%;
+   }
+
+ .tel {
+    background-image: url('img/11.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 220px;
+    width: auto;
+    cursor: pointer;
+ }
+
+.tel:hover {
+  background-image: url('img/12.jpg');
+ }
+
+ .tel2 {
+  background-image: url('img/d1.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.tel2:hover {
+  background-image: url('img/d2.png');
+}
+
+
+.box8 {
+  margin-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  cursor: pointer;
+}
+
+ .woman {
+    background-image: url('img/111.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 220px;
+    width: auto;
+    cursor: pointer;
+  }
+
+ .woman:hover {
+    background-image: url('img/112.jpg');
+ }
+
+ 
+ .woman2 {
+  background-image: url('img/f1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.woman2:hover {
+  background-image: url('img/f2.jpg');
+}
+
+.woman3 {
+  background-image: url('img/311.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.woman3:hover {
+  background-image: url('img/310.jpg');
+}
+
+
+
+.box9 {
+  margin-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+}
+
+.man {
+  background-image: url('img/345.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.man:hover {
+  background-image: url('img/346.jpg');
+}
+
+.man2 {
+  background-image: url('img/m21.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.man2:hover {
+  background-image: url('img/m22.jpg');
+} 
+
+.man3 {
+  background-image: url('img/123.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.man3:hover {
+  background-image: url('img/124.jpg');
+} 
+
+
+.hand {
+  width: 45px;
+  height: auto;
+  position: relative;
+  right: 269px;
+  top: -140px;
+  animation-name: hand-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom center;
+  animation-direction: alternate;
+  transition-timing-function: linear;
+}
+
+ @keyframes hand-animation {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+ 
+}
+
+
+
+.marquee {
+  padding: 5px;
+  background: #FFD17D;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee linear infinite alternate;
+}
+
+@keyframes marquee {
+  from {
+    text-indent: 100%;
+  }
+  to {
+    text-indent: 0;
+  }
+}
